@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+.top {
+  margin-top: 90px;
+  background-image: url(../img/top.png);
+  background-size: cover;
+}
+
+
+.section-title {
+  position: relative;
+  text-align: center;
+  margin-bottom: 1em ;
+  
+}
+
+.section-title:before {
+  content: '';
+  position: absolute;
+  bottom: -15px;
+  display: inline-block;
+  width: 60px;
+  height: 5px;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 2px;
+}
+
+.policy-wrapper {
+  padding-bottom: 30px;
+}
+
+.policy-title {
+  background: linear-gradient(transparent 70%, #9afce3 70%);
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.policy-sentence {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+h2.anchor{
+  display: block;
+  padding-top: 90px;
+  margin-top: -90px;
+}
+
+
+
+a.btn--green {
+  color: #fff;
+  background-color: #094;
+}
+
+a.btn--green:hover {
+  color: #fff;
+  background: #00a349;
+}
+
+a.btn--green.btn--cubic {
+  border-bottom: 5px solid #00662d;
+}
+
+a.btn--green.btn--cubic:hover {
+  margin-top: 3px;
+  border-bottom: 2px solid #00662d;
+}
+
+
+.btn--blue {
+  color: #fff;
+  background: rgb(49, 139, 243);
+}
+
+.btn--blue:hover {
+  color: #fff;
+  background: rgb(67, 149, 243);
+}
+
+.btn--blue {
+  border-bottom: 5px solid #003566;
+}
+
+.btn--blue:hover {
+  margin-top: 3px;
+  border-bottom: 2px solid #003566;
+}
+
+a.btn-c {
+  font-size: 2rem;
+  position: relative;
+  padding: 1.5rem 3rem 1.5rem 2rem;
+}
+
+a.btn-c i.fab {
+  margin-right: 1rem;
+}
+
+
+.marker {
+  font-weight: bold;
+  background: linear-gradient(transparent 70%, #eaee12 70%);
+}
